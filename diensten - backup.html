@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Diensten | ICT-Loket Noordkade Veghel</title>
+  <meta name="description" content="Bekijk onze ICT-diensten: computerhulp, tablet & smartphone, internet, veiligheid en meer." />
+  <link rel="stylesheet" href="/css/styles.css" />
+  <link rel="icon" href="/favicon.ico" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <a href="/index.html" class="nav-brand">
+          <img src="/images/logo.png" alt="ICT-Loket logo" />
+        </a>
+        <input type="checkbox" id="nav-check" class="nav-check" aria-label="Menu openen" />
+        <label for="nav-check" class="nav-toggle">
+          <span class="hamburger"></span>
+        </label>
+        <ul class="nav-links">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/diensten.html" class="active">Diensten</a></li>
+          <li><a href="/faq.html">FAQ</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- PAGE HEADER -->
+  <section class="section">
+    <div class="container">
+      <div class="page-header animate-in">
+        <h1>Onze <span class="highlight">Diensten</span></h1>
+        <p>Het ICT-Loket helpt u met uiteenlopende digitale vragen. Bekijk hieronder waar wij u mee kunnen helpen.</p>
+      </div>
+
+      <div class="cards-grid" id="services-grid">
+        <div class="card animate-in animate-delay-1" data-service="computerhulp" role="button" tabindex="0" aria-expanded="false">
+          <div class="card-header">
+            <div class="card-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+            </div>
+            <button class="card-close" aria-label="Sluiten" style="display: none;">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+            </button>
+          </div>
+          <h3>Computerhulp</h3>
+          <p class="card-summary">Problemen met uw computer? Wij helpen met installatie, onderhoud en reparatie.</p>
+          <div class="card-details" style="display: none;">
+            <p>Ons team van ervaren technici staat voor u klaar met:</p>
+            <ul>
+              <li>Installatie van besturingssystemen en software</li>
+              <li>Virusscanning en malware-verwijdering</li>
+              <li>Hardwareproblemen diagnosticeren en repareren</li>
+              <li>Optimalisatie van systeemprestaties</li>
+              <li>Databack-up en herstel</li>
+              <li>Onderhoud en preventief beheer</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card animate-in animate-delay-2" data-service="tablet-smartphone" role="button" tabindex="0" aria-expanded="false">
+          <div class="card-header">
+            <div class="card-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg>
+            </div>
+            <button class="card-close" aria-label="Sluiten" style="display: none;">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+            </button>
+          </div>
+          <h3>Tablet & Smartphone</h3>
+          <p class="card-summary">Hulp bij het instellen en gebruiken van uw tablet of smartphone.</p>
+          <div class="card-details" style="display: none;">
+            <p>We helpen u volledig op weg met uw mobiele apparaten:</p>
+            <ul>
+              <li>Instellen van uw nieuwe apparaat</li>
+              <li>Synchroniseren van e-mail en contacten</li>
+              <li>App-installatie en configuratie</li>
+              <li>Troubleshooting van verbindingsproblemen</li>
+              <li>Privacy en beveiligingsinstellingen</li>
+              <li>Backup en gegevensoverdracht</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card animate-in animate-delay-3" data-service="internet-wifi" role="button" tabindex="0" aria-expanded="false">
+          <div class="card-header">
+            <div class="card-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M5 12.55a11 11 0 0 1 14.08 0M1.42 9a16 16 0 0 1 21.16 0M8.53 16.11a6 6 0 0 1 6.95 0M12 20h.01"/></svg>
+            </div>
+            <button class="card-close" aria-label="Sluiten" style="display: none;">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+            </button>
+          </div>
+          <h3>Internet & Wi-Fi</h3>
+          <p class="card-summary">Problemen met uw internetverbinding? Wij zorgen dat u weer online bent.</p>
+          <div class="card-details" style="display: none;">
+            <p>Wij lossen al uw internetgerelateerde problemen op:</p>
+            <ul>
+              <li>Wi-Fi-netwerkinstallatie en optimalisatie</li>
+              <li>Router-configuratie en troubleshooting</li>
+              <li>Snelheidsdiagnose en verbetering</li>
+              <li>Signaalsterkte analyseren en verbeteren</li>
+              <li>VPN-instellingen configureren</li>
+              <li>DNS-instelling en beveiligde connecties</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card animate-in animate-delay-4" data-service="veiligheid-privacy" role="button" tabindex="0" aria-expanded="false">
+          <div class="card-header">
+            <div class="card-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+            </div>
+            <button class="card-close" aria-label="Sluiten" style="display: none;">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+            </button>
+          </div>
+          <h3>Veiligheid & Privacy</h3>
+          <p class="card-summary">Advies en hulp bij het beveiligen van uw apparaten en online accounts.</p>
+          <div class="card-details" style="display: none;">
+            <p>Uw veiligheid online is zeer belangrijk voor ons:</p>
+            <ul>
+              <li>Antivirussoftware installatie en onderhoud</li>
+              <li>Firewall-configuratie en monitoring</li>
+              <li>Wachtwoordbeheer en sterke wachtwoorden</li>
+              <li>Twee-factor-authenticatie instellen</li>
+              <li>Phishing- en fraude-waarschuwing</li>
+              <li>Privacyinstellingen optimaliseren</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card animate-in animate-delay-5" data-service="printers-randapparatuur" role="button" tabindex="0" aria-expanded="false">
+          <div class="card-header">
+            <div class="card-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+            </div>
+            <button class="card-close" aria-label="Sluiten" style="display: none;">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+            </button>
+          </div>
+          <h3>Printers & Randapparatuur</h3>
+          <p class="card-summary">Installatie en problemen oplossen met printers en andere apparatuur.</p>
+          <div class="card-details" style="display: none;">
+            <p>Wij helpen met het verbinden en instellen van periferische apparatuur:</p>
+            <ul>
+              <li>Printer-installatie en netwerkintegratie</li>
+              <li>Scannerconfiguratie en drivers</li>
+              <li>Externe harde schijven en USB-apparaten</li>
+              <li>Toetsenbord, muis en andere accessoires</li>
+              <li>Bluetooth-verbindingen optimaliseren</li>
+              <li>Problemen met apparaatherkenning oplossen</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card animate-in animate-delay-6" data-service="algemene-vragen" role="button" tabindex="0" aria-expanded="false">
+          <div class="card-header">
+            <div class="card-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>
+            </div>
+            <button class="card-close" aria-label="Sluiten" style="display: none;">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+            </button>
+          </div>
+          <h3>Algemene ICT-vragen</h3>
+          <p class="card-summary">Heeft u een andere vraag? Wij denken graag met u mee.</p>
+          <div class="card-details" style="display: none;">
+            <p>Naast onze gespecialiseerde diensten helpen we ook met:</p>
+            <ul>
+              <li>Cloud-opslag en synchronisatie</li>
+              <li>E-mailconfiguratie en troubleshooting</li>
+              <li>Sociale media- en online accountproblemen</li>
+              <li>Digitale geletterdheid en training</li>
+              <li>Software-aanbevelingen en -selectie</li>
+              <li>Advies op maat voor uw specifieke behoeften</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h3>ICT-Loket Noordkade</h3>
+          <p>Uw persoonlijke ICT-hulp in Veghel. Wij helpen u graag met al uw digitale vragen.</p>
+        </div>
+        <div>
+          <h3>Navigatie</h3>
+          <a href="/home.html">Home</a>
+          <a href="/diensten.html">Diensten</a>
+          <a href="/faq.html">FAQ</a>
+          <a href="/contact.html">Contact</a>
+        </div>
+        <div>
+          <h3>Contact</h3>
+          <div class="footer-contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Noordkade, Veghel</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            <span>info@ictloket-noordkade.nl</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-powered-by">
+          <span>Powered by</span>
+          <img src="images/logo_blue_red.png" alt="Powered by logo" class="footer-logo" />
+        </div>
+        &copy; 2025 ICT-Loket Noordkade Veghel. Alle rechten voorbehouden.
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const grid = document.getElementById('services-grid');
+      const cards = Array.from(grid.querySelectorAll('.card'));
+      const header = document.querySelector('.header');
+      
+      // Set header height als CSS variable voor scroll-margin-top
+      function updateHeaderHeight() {
+        if (header) {
+          const headerHeight = header.offsetHeight;
+          document.documentElement.style.setProperty('--header-height', headerHeight + 'px');
+        }
+      }
+      
+      // Update bij load en resize
+      updateHeaderHeight();
+      window.addEventListener('resize', updateHeaderHeight);
+      
+      // Calculeer header hoogte voor smooth scroll offset
+      function getHeaderHeight() {
+        return header ? header.offsetHeight : 0;
+      }
+
+      // Custom smooth scroll met header offset
+      function smoothScrollToElement(element, block = 'start') {
+        // Wacht tot de DOM volledig is geupdate
+        requestAnimationFrame(() => {
+          const targetPosition = element.getBoundingClientRect().top + window.scrollY;
+          const headerHeight = getHeaderHeight();
+          
+          let scrollTarget;
+          
+          if (block === 'start') {
+            // Scroll naar element, met header offset + 30px buffer
+            scrollTarget = targetPosition - headerHeight - 30;
+          } else {
+            // Center: element in midden van viewport
+            const windowHeight = window.innerHeight;
+            scrollTarget = targetPosition - (windowHeight / 2) + (element.offsetHeight / 2);
+          }
+          
+          // Smooth scroll met langere duration
+          window.scrollTo({
+            top: Math.max(0, scrollTarget),
+            behavior: 'smooth'
+          });
+        });
+      }
+
+      function closeCard(card) {
+        card.classList.add('card-closing');
+        card.setAttribute('aria-expanded', 'false');
+        
+        const details = card.querySelector('.card-details');
+        const summary = card.querySelector('.card-summary');
+        const closeBtn = card.querySelector('.card-close');
+        
+        // Zet details opacity op 1 zodat slideUp animatie kan starten
+        if (details) {
+          details.style.opacity = '1';
+        }
+        
+        // Wacht op collapse animatie (800ms)
+        setTimeout(() => {
+          card.classList.remove('card-expanded', 'card-closing');
+          
+          if (details) {
+            details.style.display = 'none';
+            details.style.opacity = '0';
+          }
+          if (summary) {
+            summary.style.display = 'block';
+          }
+          if (closeBtn) {
+            closeBtn.style.display = 'none';
+          }
+
+          // Controleer of er nog geopende kaarten zijn
+          const hasExpanded = grid.querySelector('.card-expanded');
+          if (!hasExpanded) {
+            grid.classList.remove('has-expanded');
+          }
+        }, 800);
+      }
+
+      let isAnimating = false;
+
+      function expandCard(card) {
+        card.classList.add('card-expanded');
+        card.setAttribute('aria-expanded', 'true');
+        
+        const details = card.querySelector('.card-details');
+        const summary = card.querySelector('.card-summary');
+        const closeBtn = card.querySelector('.card-close');
+        
+        if (details) {
+          details.style.display = 'block';
+          // Force reflow voor animatie
+          void details.offsetWidth;
+          details.style.opacity = '1';
+        }
+        if (summary) {
+          summary.style.display = 'none';
+        }
+        if (closeBtn) {
+          closeBtn.style.display = 'flex';
+        }
+        
+        grid.classList.add('has-expanded');
+        
+        // Scroll naar het blok na de expand animatie (0.8s)
+        setTimeout(() => {
+          smoothScrollToElement(card, 'start');
+        }, 800);
+      }
+
+      cards.forEach(card => {
+        // Klik event voor het openen van de kaart
+        card.addEventListener('click', (e) => {
+          // Voorkom dat de close button de kaart ook opent
+          if (e.target.closest('.card-close')) return;
+
+          // Voorkom meerdere animaties tegelijk
+          if (isAnimating) return;
+
+          // Vind geopende kaart
+          const expandedCard = grid.querySelector('.card-expanded');
+          const isSameCard = expandedCard === card;
+          const isCurrentlyExpanded = card.classList.contains('card-expanded');
+
+          if (isCurrentlyExpanded) {
+            // Sluit huidige kaart
+            isAnimating = true;
+            closeCard(card);
+            setTimeout(() => {
+              isAnimating = false;
+            }, 800);
+          } else if (expandedCard && !isSameCard) {
+            // Wissel naar ander blok: close → order restore → open
+            isAnimating = true;
+            closeCard(expandedCard);
+            
+            // Wacht op close animatie (800ms) + order restore (600ms)
+            setTimeout(() => {
+              expandCard(card);
+              setTimeout(() => {
+                isAnimating = false;
+              }, 1300); // 800ms (expand) + 500ms (scroll delay)
+            }, 800);
+          } else if (!expandedCard) {
+            // Open eerste blok
+            isAnimating = true;
+            expandCard(card);
+            setTimeout(() => {
+              isAnimating = false;
+            }, 1300);
+          }
+        });
+
+        // Klik event voor de close button
+        const closeBtn = card.querySelector('.card-close');
+        if (closeBtn) {
+          closeBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            if (!isAnimating) {
+              isAnimating = true;
+              closeCard(card);
+              setTimeout(() => {
+                isAnimating = false;
+              }, 800);
+            }
+          });
+        }
+
+        // Keyboard support (Enter en Space)
+        card.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            card.click();
+          }
+        });
+      });
+
+      // ESC key to close
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && !isAnimating) {
+          const expandedCard = grid.querySelector('.card-expanded');
+          if (expandedCard) {
+            isAnimating = true;
+            closeCard(expandedCard);
+            setTimeout(() => {
+              isAnimating = false;
+            }, 800);
+          }
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>

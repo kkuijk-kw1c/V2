@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | ICT-Loket Noordkade Veghel</title>
+  <meta name="description" content="Neem contact op met het ICT-Loket Noordkade in Veghel." />
+  <link rel="stylesheet" href="/css/styles.css" />
+  <link rel="icon" href="/favicon.ico" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <a href="/index.html" class="nav-brand">
+          <img src="/images/logo.png" alt="ICT-Loket logo" />
+        </a>
+        <input type="checkbox" id="nav-check" class="nav-check" aria-label="Menu openen" />
+        <label for="nav-check" class="nav-toggle">
+          <span class="hamburger"></span>
+        </label>
+        <ul class="nav-links">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/diensten.html">Diensten</a></li>
+          <li><a href="/faq.html">FAQ</a></li>
+          <li><a href="/contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- CONTACT -->
+  <section class="section">
+    <div class="container">
+      <div class="page-header animate-in">
+        <h1><span class="highlight">Contact</span> opnemen</h1>
+        <p>Heeft u een vraag of wilt u een afspraak maken? Neem gerust contact met ons op.</p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Info -->
+        <div class="contact-info animate-in animate-delay-1">
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div>
+              <h3>Locatie</h3>
+              <p>Noordkade, Veghel</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            </div>
+            <div>
+              <h3>E-mail</h3>
+              <p>info@ictloket-noordkade.nl</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div>
+              <h3>Openingstijden</h3>
+              <p>Neem contact op voor actuele openingstijden</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Form -->
+        <div class="animate-in animate-delay-2">
+          <form class="contact-form" onsubmit="event.preventDefault(); this.innerHTML='<div style=&quot;text-align:center;padding:3rem 1rem&quot;><h3 style=&quot;font-family:var(--font-heading);margin-bottom:0.5rem&quot;>Bedankt!</h3><p style=&quot;color:var(--muted)&quot;>Wij nemen zo snel mogelijk contact met u op.</p></div>'">
+            <div class="form-group">
+              <label for="name">Naam</label>
+              <input type="text" id="name" placeholder="Uw naam" required />
+            </div>
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" placeholder="uw@email.nl" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Bericht</label>
+              <textarea id="message" placeholder="Waar kunnen wij u mee helpen?" required></textarea>
+            </div>
+            <button type="submit" class="btn-submit">Versturen</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h3>ICT-Loket Noordkade</h3>
+          <p>Uw persoonlijke ICT-hulp in Veghel. Wij helpen u graag met al uw digitale vragen.</p>
+        </div>
+        <div>
+          <h3>Navigatie</h3>
+          <a href="/home.html">Home</a>
+          <a href="/diensten.html">Diensten</a>
+          <a href="/faq.html">FAQ</a>
+          <a href="/contact.html">Contact</a>
+        </div>
+        <div>
+          <h3>Contact</h3>
+          <div class="footer-contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Noordkade, Veghel</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            <span>info@ictloket-noordkade.nl</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-powered-by">
+          <span>Powered by</span>
+          <img src="images/logo_blue_red.png" alt="Powered by logo" class="footer-logo" />
+        </div>
+        &copy; 2025 ICT-Loket Noordkade Veghel. Alle rechten voorbehouden.
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
